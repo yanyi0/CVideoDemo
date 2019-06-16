@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61D4C37322B5EF1F00BE176D /* CVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = 61D4C37122B5EF1F00BE176D /* CVideo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61D4C38722B624F500BE176D /* CVideoManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 61D4C38522B624F500BE176D /* CVideoManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61D4C38822B624F500BE176D /* CVideoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D4C38622B624F500BE176D /* CVideoManager.m */; };
+		61D4C3A222B63FD900BE176D /* CVideoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 61D4C3A022B63FD900BE176D /* CVideoViewController.h */; };
+		61D4C3A322B63FD900BE176D /* CVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D4C3A122B63FD900BE176D /* CVideoViewController.m */; };
+		61D4C3A622B6414700BE176D /* CVideoAddAreaButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 61D4C3A422B6414700BE176D /* CVideoAddAreaButton.h */; };
+		61D4C3A722B6414700BE176D /* CVideoAddAreaButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D4C3A522B6414700BE176D /* CVideoAddAreaButton.m */; };
+		61D4C3AA22B6423200BE176D /* CVideoBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 61D4C3A822B6423200BE176D /* CVideoBundle.h */; };
+		61D4C3AB22B6423200BE176D /* CVideoBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D4C3A922B6423200BE176D /* CVideoBundle.m */; };
+		61D4C3C122B6622700BE176D /* icon_back_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61D4C3BB22B6622700BE176D /* icon_back_white@2x.png */; };
+		61D4C3C222B6622700BE176D /* icon_back_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61D4C3BC22B6622700BE176D /* icon_back_white@3x.png */; };
+		61D4C3C322B6622700BE176D /* icon_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61D4C3BD22B6622700BE176D /* icon_back@3x.png */; };
+		61D4C3C422B6622700BE176D /* icon_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61D4C3BE22B6622700BE176D /* icon_back@2x.png */; };
+		61D4C3C522B6622700BE176D /* icon_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61D4C3BF22B6622700BE176D /* icon_close@3x.png */; };
+		61D4C3C622B6622700BE176D /* icon_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61D4C3C022B6622700BE176D /* icon_close@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		61D4C36E22B5EF1F00BE176D /* CVideo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CVideo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61D4C37122B5EF1F00BE176D /* CVideo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVideo.h; sourceTree = "<group>"; };
+		61D4C37222B5EF1F00BE176D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61D4C38522B624F500BE176D /* CVideoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVideoManager.h; sourceTree = "<group>"; };
+		61D4C38622B624F500BE176D /* CVideoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVideoManager.m; sourceTree = "<group>"; };
+		61D4C3A022B63FD900BE176D /* CVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVideoViewController.h; sourceTree = "<group>"; };
+		61D4C3A122B63FD900BE176D /* CVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVideoViewController.m; sourceTree = "<group>"; };
+		61D4C3A422B6414700BE176D /* CVideoAddAreaButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVideoAddAreaButton.h; sourceTree = "<group>"; };
+		61D4C3A522B6414700BE176D /* CVideoAddAreaButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVideoAddAreaButton.m; sourceTree = "<group>"; };
+		61D4C3A822B6423200BE176D /* CVideoBundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVideoBundle.h; sourceTree = "<group>"; };
+		61D4C3A922B6423200BE176D /* CVideoBundle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVideoBundle.m; sourceTree = "<group>"; };
+		61D4C3B422B6616200BE176D /* CVideoBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CVideoBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		61D4C3B622B6616200BE176D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61D4C3BB22B6622700BE176D /* icon_back_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_back_white@2x.png"; sourceTree = "<group>"; };
+		61D4C3BC22B6622700BE176D /* icon_back_white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_back_white@3x.png"; sourceTree = "<group>"; };
+		61D4C3BD22B6622700BE176D /* icon_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_back@3x.png"; sourceTree = "<group>"; };
+		61D4C3BE22B6622700BE176D /* icon_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_back@2x.png"; sourceTree = "<group>"; };
+		61D4C3BF22B6622700BE176D /* icon_close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_close@3x.png"; sourceTree = "<group>"; };
+		61D4C3C022B6622700BE176D /* icon_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_close@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61D4C36B22B5EF1F00BE176D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61D4C3B122B6616200BE176D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61D4C36422B5EF1F00BE176D = {
+			isa = PBXGroup;
+			children = (
+				61D4C37022B5EF1F00BE176D /* CVideo */,
+				61D4C3B522B6616200BE176D /* CVideoBundle */,
+				61D4C36F22B5EF1F00BE176D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61D4C36F22B5EF1F00BE176D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61D4C36E22B5EF1F00BE176D /* CVideo.framework */,
+				61D4C3B422B6616200BE176D /* CVideoBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61D4C37022B5EF1F00BE176D /* CVideo */ = {
+			isa = PBXGroup;
+			children = (
+				61D4C37122B5EF1F00BE176D /* CVideo.h */,
+				61D4C38522B624F500BE176D /* CVideoManager.h */,
+				61D4C38622B624F500BE176D /* CVideoManager.m */,
+				61D4C3A422B6414700BE176D /* CVideoAddAreaButton.h */,
+				61D4C3A522B6414700BE176D /* CVideoAddAreaButton.m */,
+				61D4C3A822B6423200BE176D /* CVideoBundle.h */,
+				61D4C3A922B6423200BE176D /* CVideoBundle.m */,
+				61D4C3A022B63FD900BE176D /* CVideoViewController.h */,
+				61D4C3A122B63FD900BE176D /* CVideoViewController.m */,
+				61D4C37222B5EF1F00BE176D /* Info.plist */,
+			);
+			path = CVideo;
+			sourceTree = "<group>";
+		};
+		61D4C3B522B6616200BE176D /* CVideoBundle */ = {
+			isa = PBXGroup;
+			children = (
+				61D4C3BA22B6622700BE176D /* Resources */,
+				61D4C3B622B6616200BE176D /* Info.plist */,
+			);
+			path = CVideoBundle;
+			sourceTree = "<group>";
+		};
+		61D4C3BA22B6622700BE176D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				61D4C3BB22B6622700BE176D /* icon_back_white@2x.png */,
+				61D4C3BC22B6622700BE176D /* icon_back_white@3x.png */,
+				61D4C3BD22B6622700BE176D /* icon_back@3x.png */,
+				61D4C3BE22B6622700BE176D /* icon_back@2x.png */,
+				61D4C3BF22B6622700BE176D /* icon_close@3x.png */,
+				61D4C3C022B6622700BE176D /* icon_close@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		61D4C36922B5EF1F00BE176D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61D4C3A222B63FD900BE176D /* CVideoViewController.h in Headers */,
+				61D4C37322B5EF1F00BE176D /* CVideo.h in Headers */,
+				61D4C3AA22B6423200BE176D /* CVideoBundle.h in Headers */,
+				61D4C38722B624F500BE176D /* CVideoManager.h in Headers */,
+				61D4C3A622B6414700BE176D /* CVideoAddAreaButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		61D4C36D22B5EF1F00BE176D /* CVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61D4C37622B5EF1F00BE176D /* Build configuration list for PBXNativeTarget "CVideo" */;
+			buildPhases = (
+				61D4C36922B5EF1F00BE176D /* Headers */,
+				61D4C36A22B5EF1F00BE176D /* Sources */,
+				61D4C36B22B5EF1F00BE176D /* Frameworks */,
+				61D4C36C22B5EF1F00BE176D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CVideo;
+			productName = CVideo;
+			productReference = 61D4C36E22B5EF1F00BE176D /* CVideo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		61D4C3B322B6616200BE176D /* CVideoBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61D4C3B722B6616200BE176D /* Build configuration list for PBXNativeTarget "CVideoBundle" */;
+			buildPhases = (
+				61D4C3B022B6616200BE176D /* Sources */,
+				61D4C3B122B6616200BE176D /* Frameworks */,
+				61D4C3B222B6616200BE176D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CVideoBundle;
+			productName = CVideoBundle;
+			productReference = 61D4C3B422B6616200BE176D /* CVideoBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61D4C36522B5EF1F00BE176D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = cloud;
+				TargetAttributes = {
+					61D4C36D22B5EF1F00BE176D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					61D4C3B322B6616200BE176D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 61D4C36822B5EF1F00BE176D /* Build configuration list for PBXProject "CVideo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 61D4C36422B5EF1F00BE176D;
+			productRefGroup = 61D4C36F22B5EF1F00BE176D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61D4C36D22B5EF1F00BE176D /* CVideo */,
+				61D4C3B322B6616200BE176D /* CVideoBundle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61D4C36C22B5EF1F00BE176D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61D4C3B222B6616200BE176D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61D4C3C122B6622700BE176D /* icon_back_white@2x.png in Resources */,
+				61D4C3C222B6622700BE176D /* icon_back_white@3x.png in Resources */,
+				61D4C3C422B6622700BE176D /* icon_back@2x.png in Resources */,
+				61D4C3C522B6622700BE176D /* icon_close@3x.png in Resources */,
+				61D4C3C622B6622700BE176D /* icon_close@2x.png in Resources */,
+				61D4C3C322B6622700BE176D /* icon_back@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61D4C36A22B5EF1F00BE176D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61D4C3A722B6414700BE176D /* CVideoAddAreaButton.m in Sources */,
+				61D4C3AB22B6423200BE176D /* CVideoBundle.m in Sources */,
+				61D4C3A322B63FD900BE176D /* CVideoViewController.m in Sources */,
+				61D4C38822B624F500BE176D /* CVideoManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61D4C3B022B6616200BE176D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		61D4C37422B5EF1F00BE176D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		61D4C37522B5EF1F00BE176D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		61D4C37722B5EF1F00BE176D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8ZSCVU88C4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CVideo/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloud.CVideo;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61D4C37822B5EF1F00BE176D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8ZSCVU88C4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CVideo/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloud.CVideo;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		61D4C3B822B6616200BE176D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = NO;
+				DEVELOPMENT_TEAM = 8ZSCVU88C4;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = CVideoBundle/Info.plist;
+				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloud.CVideoBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		61D4C3B922B6616200BE176D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = NO;
+				DEVELOPMENT_TEAM = 8ZSCVU88C4;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = CVideoBundle/Info.plist;
+				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloud.CVideoBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61D4C36822B5EF1F00BE176D /* Build configuration list for PBXProject "CVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61D4C37422B5EF1F00BE176D /* Debug */,
+				61D4C37522B5EF1F00BE176D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61D4C37622B5EF1F00BE176D /* Build configuration list for PBXNativeTarget "CVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61D4C37722B5EF1F00BE176D /* Debug */,
+				61D4C37822B5EF1F00BE176D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61D4C3B722B6616200BE176D /* Build configuration list for PBXNativeTarget "CVideoBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61D4C3B822B6616200BE176D /* Debug */,
+				61D4C3B922B6616200BE176D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61D4C36522B5EF1F00BE176D /* Project object */;
+}
